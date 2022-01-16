@@ -6,8 +6,10 @@ function inputHandler(e) {
 
     if (e.target.id === "h1-btn") {
 
+        // gather H1 length
         let hOneValueLength = document.querySelector("#h1-value").value.trim().length
         
+        // check length
         if (hOneValueLength < 20) {
             document.querySelector("#h1-length").innerHTML = "Character count: " + hOneValueLength + " ...TO SHORT!"
         }
@@ -23,8 +25,10 @@ function inputHandler(e) {
 
     if (e.target.id === "meta-btn") {
 
+        // gather meta desc legth
         let metaValueLength = document.querySelector("#meta-value").value.trim().length
 
+        // check length
         if (metaValueLength < 120) {
             document.querySelector("#desc-length").innerHTML = "Character count: " + metaValueLength + " ...TO SHORT!"
         }
@@ -39,8 +43,10 @@ function inputHandler(e) {
 
     if (e.target.id === "alt-btn") {
 
+        // gather alt tag legth
         let altValueLength = document.querySelector("#alt-value").value.trim().length
 
+        // check length
         if (altValueLength < 20) {
             document.querySelector("#alt-length").innerHTML = "Character count: " + altValueLength + " ...TO SHORT!"
         }
