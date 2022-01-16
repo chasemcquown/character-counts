@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Character Counts! Count characters for H1 tags and more! Receive feedback for improvements on SEO.">
+    <title>Character Counts!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Character Counts! </h1>
+    </header>
+    <br>
+
+    <div class="container" id="targeted-btn">
+        <form class="forms">
+            <label for="hOneTag" style="font-size: 1.5rem;">H1 Tag</label>
+            <input id="h1-value" class="form-control form-control-lg" type="text" placeholder="H1 text here">
+            <p id="h1-length"></p>
+            <button type="button" id="h1-btn" class="btn btn-dark h1-btn">check length</button>
+        </form>
+        <br>
+
+        <form class="forms">
+            <label for="meta-description" style="font-size: 1.5rem;">Meta Description</label>
+            <input id="meta-value" class="form-control form-control-lg" type="text" placeholder="meta description text here">
+            <p id="desc-length"></p>
+            <button type="button" id="meta-btn" class="btn btn-dark meta-btn">check length</button>
+        </form>
+        <br>
+
+        <form class="forms">
+            <label for="alt-tag" style="font-size: 1.5rem;">ALT Tag</label>
+            <input id="alt-value" class="form-control form-control-lg" type="text" placeholder="alt text here">
+            <p id="alt-length"></p>
+            <button type="button" id="alt-btn" class="btn btn-dark alt-btn">check length</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
